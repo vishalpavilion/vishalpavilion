@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal Pavilion Residency | Imperial French Edition</title>
+    
+    <!-- Bootstrap 5 & Font Awesome -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Luxury Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Playfair+Display:ital,wght@0,400;0,700;1,900&family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="loading">
+
+    <!-- CUSTOM MOUSE CURSOR -->
+    <div id="cursor-dot"></div>
+    <div id="cursor-ring"></div>
+
+    <!-- VELVET DOOR LOADER (Nav is hidden during this) -->
+    <div id="loader-wrapper">
+        <div class="loader-door door-left"></div>
+        <div class="loader-door door-right"></div>
+        <div class="loader-content">
+            <div class="royal-monogram">VP</div>
+            <p class="loader-text">Sea View Residency</p>
+        </div>
+    </div>
+
+    <!-- FIXED NAVIGATION (Appears after loading) -->
+    <!-- FIXED IMPERIAL NAV (No Hamburger Menu) -->
+<nav class="navbar navbar-expand fixed-top imperial-nav">
+    <div class="container">
+        <!-- Brand Logo -->
+        <a class="navbar-brand" href="#">VISHAL PAVILION</a>
+        
+        <!-- Navigation Links & WhatsApp Icons (Right Aligned) -->
+        <div class="d-flex align-items-center ms-auto">
+            <!-- Desktop & Mobile Links -->
+            <ul class="navbar-nav d-flex flex-row me-3">
+                <li class="nav-item"><a class="nav-link nav-item-minimal" href="#about">ABOUT</a></li>
+                <li class="nav-item"><a class="nav-link nav-item-minimal" href="#rooms">ROOMS</a></li>
+                <li class="nav-item"><a class="nav-link nav-item-minimal" href="#gallery">GALLERY</a></li>
+                <li class="nav-item"><a class="nav-link nav-item-minimal" href="#contact">CONTACT</a></li>
+            </ul>
+
+            <!-- WhatsApp Icon -->
+            <a href="https://wa.me/919443058306?text=Greetings!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20at%20Vishal%20Pavilion." 
+   class="nav-action-icon micro-interaction" 
+   target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+    </div>
+</nav>
+
+    <!-- HERO SECTION (3D PARALLAX) -->
+    <section class="hero-wrap">
+        <div id="hero-bg-parallax"></div>
+        <div class="hero-container">
+            <div class="imperial-frame">
+                <p class="location-tag">Experience Excellence</p>
+                <h1 class="main-title">Vishal Pavilion</h1>
+                <h2 class="sub-title">The Residency</h2>
+                <div class="gold-divider"></div>
+                <p class="hero-desc">Pondicherry’s Finest Stay</p>
+            </div>
+        </div>
+    </section>
+
+<!-- ABOUT SECTION: THE IMPERIAL STORY -->
+<section id="about" class="about-imperial py-5">
+    <div class="container py-lg-5">
+        <div class="row align-items-center g-5">
+            
+            <!-- LEFT: 3D IMAGE FRAME -->
+            <div class="col-lg-6 entrance-anim">
+                <div class="about-frame-wrapper" id="about-parallax-img">
+                    <div class="gold-border-outer"></div>
+                    <div class="gold-border-inner"></div>
+                    <img src="images/exter.jpeg" 
+                         alt="Vishal Pavilion Imperial View" class="img-fluid about-main-img">
+                    <div class="imperial-seal">VP</div>
+                </div>
+            </div>
+
+            <!-- RIGHT: RICH TEXT CONTENT -->
+            <div class="col-lg-6 entrance-anim">
+                <div class="about-content-box">
+                    <h5 class="gold-accent-text mb-3" style="color: #795209;">Timeless Hospitality</h5>
+                    <h2 class="royal-display-title mb-4">Vishal Pavilion <br><span class="italic-gold">Sea View Residency</span></h2>
+                    
+                    <div class="imperial-ornament mb-4">
+                        <span class="line"></span>
+                        <i class="fas fa-feather-pointed"></i>
+                        <span class="line"></span>
+                    </div>
+
+                    <p class="about-p mb-4">
+                        Nestled in <strong>Nonankuppam, Puducherry</strong>, directly opposite the iconic <strong>Chunnambar Boat House</strong>, our residency is more than a stay—it is a passage into the Napoleonic era. 
+                    </p>
+                    
+                    <ul class="amenities-list row g-3 mb-5">
+                        <div class="col-6"><li class="micro-interaction"><i class="fas fa-crown"></i> Pet Friendly</li></div>
+                        <div class="col-6"><li class="micro-interaction"><i class="fas fa-wifi"></i>  Wi-Fi</li></div>
+                        <div class="col-6"><li class="micro-interaction"><i class="fas fa-snowflake"></i>  AC</li></div>
+                        <div class="col-6"><li class="micro-interaction"><i class="fas fa-parking"></i> Valet Parking</li></div>
+                    </ul>
+
+                    <p class="about-footer-text">
+                        Located on Pudhu Nagar 1st Cross Street, we sit at the perfect intersection of coastal tranquility and city grandeur, just 8km from the heart of Puducherry.
+                    </p>
+                    
+                    <a href="#rooms" class="btn-imperial-gold mt-4 micro-interaction">DISCOVER OUR ROOMS</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- ROOMS & HALL SECTION -->
+<section id="rooms" class="py-5 imperial-bg-texture">
+    <div class="container py-lg-5">
+        <h2 class="text-center royal-display-title mb-5 entrance-anim" style="color: #c5a059;">Our Accommodations</h2>
+        
+        <div class="row g-5 align-items-center">
+            <!-- 1. DELUXE ROOM SECTION -->
+            <div class="col-lg-6 entrance-anim">
+                <div class="luxury-card-3d">
+                    <div class="slideshow-container">
+                        <!-- Auto Changing 5 Images -->
+                        <img src="images/room1.jpeg" class="slide-img active">
+                        <img src="images/romm2.jpeg" class="slide-img">
+                        <img src="images/room3.jpeg" class="slide-img">
+                        <img src="images/room4.jpeg" class="slide-img">
+                        <img src="images/room5.jpeg" class="slide-img">
+                        <img src="images/room6.jpeg" class="slide-img">
+                        <div class="card-label">Deluxe Room</div>
+                    </div>
+                    <div class="card-details-glass p-4">
+                        <h3 class="gold-text">Deluxe Room</h3>
+                        <div class="room-specs mb-3">
+                            <span><i class="fas fa-expand"></i> 160 m²</span>
+                            <span><i class="fas fa-users"></i> Sleeps 3</span>
+                            <span><i class="fas fa-snowflake"></i> AC & Heating</span>
+                        </div>
+                        <p class="small text-white-50">Spacious double room with electric kettle, and flat-screen TV. Perfect for a royal stay.</p>
+                        <button class="btn-royal-sm mt-3" data-bs-toggle="modal" data-bs-target="#bookModal">View Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. PARTY HALL SECTION -->
+            <div class="col-lg-6 entrance-anim">
+                <div class="luxury-card-3d">
+                    <div class="slideshow-container">
+                        <!-- Auto Changing 5 Images -->
+                        <img src="images/func.jpeg" class="slide-img active">
+                        <img src="images/Part.jpeg" class="slide-img">
+                        <img src="images/party.jpeg" class="slide-img">
+                        <img src="images/Partyy.jpeg" class="slide-img">
+                        <img src="images/recep.jpeg" class="slide-img">
+                        <div class="card-label">Grand Party Hall</div>
+                    </div>
+                    <div class="card-details-glass p-4">
+                        <h3 class="gold-text">Party Hall</h3>
+                        <div class="room-specs mb-3">
+                            <span><i class="fas fa-glass-cheers"></i> Events & Parties</span>
+                            <span><i class="fas fa-music"></i> Audio Systems</span>
+                            <span><i class="fas fa-utensils"></i> Catering Ready</span>
+                        </div>
+                        <p class="small text-white-50">Celebrate your life's milestones in a venue draped in velvet and gold. Perfect for birthdays and family gatherings.</p>
+                        <button class="btn-royal-sm mt-3" data-bs-toggle="modal" data-bs-target="#bookModal">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5 entrance-anim">
+            <button class="btn-imperial-gold" data-bs-toggle="modal" data-bs-target="#bookModal">BOOK YOUR ROYAL STAY NOW</button>
+        </div>
+    </div>
+</section>
+
+<!-- BOOKING MODAL -->
+<div class="modal fade" id="bookModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content booking-glass-modal">
+            <div class="modal-header border-0">
+                <h5 class="modal-title gold-text font-cinzel">Reservation Enquiry</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form id="whatsappForm">
+                    <div class="mb-3">
+                        <label class="form-label small gold-text">Selection Type</label>
+                        <select class="form-select royal-input" id="stayType" required>
+                            <option value="Deluxe Room">Deluxe Room</option>
+                            <option value="Party Hall">Party Hall</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <label class="form-label small gold-text">Check-In</label>
+                            <input type="date" class="form-control royal-input" id="checkIn" required>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <label class="form-label small gold-text">Check-Out</label>
+                            <input type="date" class="form-control royal-input" id="checkOut" required>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label small gold-text" id="occupancyLabel">Number of Adults</label>
+                        <input type="number" class="form-control royal-input" id="adults" min="1" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label small gold-text">Special Request (Optional)</label>
+                        <textarea class="form-control royal-input" id="specialRequest" rows="2" placeholder="Any royal preferences?"></textarea>
+                    </div>
+                    <button type="submit" class="btn-imperial-gold w-100 py-3 mt-3">SEND WHATSAPP ENQUIRY</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- IMPERIAL CATEGORIZED GALLERY -->
+<section id="gallery" class="gallery-section py-5 overflow-hidden">
+    <div class="container py-lg-5">
+        <div class="gallery-header-box text-center mb-5 entrance-scatter">
+            <h5 class="gold-text spacing-wide">THE VISUAL LEGACY</h5>
+            <h2 class="royal-display-title">Imperial Gallery</h2>
+            <div class="gold-divider mx-auto"></div>
+        </div>
+        
+        <!-- Category Filters -->
+        <div class="gallery-filters d-flex justify-content-center flex-wrap mb-5 entrance-scatter">
+            <button class="filter-btn active micro-interaction" data-filter="all">ALL ESTATES</button>
+            <button class="filter-btn micro-interaction" data-filter="exterior">EXTERIOR</button>
+            <button class="filter-btn micro-interaction" data-filter="rooms">ROOMS & HALLS</button>
+            <button class="filter-btn micro-interaction" data-filter="parking">PARKING</button>
+        </div>
+
+        <div class="gallery-grid" id="dynamic-grid">
+            <!-- 20 Images with categories -->
+            <!-- Exterior -->
+            <div class="gallery-item exterior entrance-scatter" data-cat="exterior"><img src="images/night.jpeg" alt="Exterior 1"></div>
+            <div class="gallery-item exterior entrance-scatter" data-cat="exterior"><img src="images/nightt.jpeg" alt="Exterior 2"></div>
+            <div class="gallery-item exterior entrance-scatter" data-cat="exterior"><img src="images/balc.jpeg" alt="Exterior 3"></div>
+            <div class="gallery-item exterior entrance-scatter" data-cat="exterior"><img src="images/Dine.jpeg " alt="Exterior 4"></div>
+            
+            <!-- Rooms & Party Hall -->
+            <div class="gallery-item rooms entrance-scatter" data-cat="rooms"><img src="images/room1.jpeg" alt="Room 1"></div>
+            <div class="gallery-item rooms entrance-scatter" data-cat="rooms"><img src="images/romm2.jpeg" alt="Room 2"></div>
+            <div class="gallery-item rooms entrance-scatter" data-cat="rooms"><img src="images/room3.jpeg" alt="Room 3"></div>
+            <div class="gallery-item rooms entrance-scatter" data-cat="rooms"><img src="images/room4.jpeg" alt="Room 4"></div>
+            <div class="gallery-item rooms entrance-scatter" data-cat="rooms"><img src="images/Room5.jpeg" alt="Hall 1"></div>
+            <div class="gallery-item rooms entrance-scatter" data-cat="rooms"><img src="images/room6.jpeg" alt="Hall 2"></div>
+            
+            <!-- Parking -->
+            <div class="gallery-item parking entrance-scatter" data-cat="parking"><img src="images/pakr.jpeg" alt="Parking 1"></div>
+            <div class="gallery-item parking entrance-scatter" data-cat="parking"><img src="images/parking'.jpeg" alt="Parking 2"></div>
+
+            <!-- Mix to complete 20 -->
+            <div class="gallery-item exterior entrance-scatter" data-cat="exterior"><img src="images/dining.jpeg" alt="Exterior 5"></div>
+            <div class="gallery-item rooms entrance-scatter" data-cat="rooms"><img src="images/exter.jpeg" alt="Room 5"></div>
+            <div class="gallery-item parking entrance-scatter" data-cat="parking"><img src="images/func.jpeg" alt="Parking 3"></div>
+            <div class="gallery-item rooms entrance-scatter" data-cat="rooms"><img src="images/parkk'.jpeg" alt="Hall 3"></div>
+            <div class="gallery-item exterior entrance-scatter" data-cat="exterior"><img src="images/parkkk.jpeg" alt="Exterior 6"></div>
+            <div class="gallery-item parking entrance-scatter" data-cat="parking"><img src="images/party.jpeg" alt="Parking 4"></div>
+            <div class="gallery-item rooms entrance-scatter" data-cat="rooms"><img src="images/receptt.jpeg" alt="Hall 4"></div>
+            <div class="gallery-item parking entrance-scatter" data-cat="parking"><img src="images/recep.jpeg" alt="Parking 5"></div>
+        </div>
+    </div>
+</section>
+
+<!-- IMPERIAL LIGHTBOX OVERLAY -->
+<div id="lightbox" class="lightbox">
+    <span class="close-lightbox micro-interaction">&times;</span>
+    <span class="prev-lightbox micro-interaction">&#10094;</span>
+    <div class="lightbox-content">
+        <img id="lightbox-img" src="" alt="Imperial View">
+    </div>
+    <span class="next-lightbox micro-interaction">&#10095;</span>
+</div>
+
+
+<!-- IMPERIAL CONTACT SECTION -->
+<section id="contact" class="contact-section py-5 position-relative overflow-hidden">
+    <!-- Animated Gold Dust Layer -->
+    <div id="gold-dust-ambient"></div>
+
+    <div class="container py-lg-5 position-relative" style="z-index: 10;">
+        <!-- Entrance Header -->
+        <div class="text-center mb-5 entrance-scatter">
+            <h5 class="gold-accent-text spacing-wide mb-2">CONNECT</h5>
+            <h2 class="royal-display-title">With Us</h2>
+            <div class="imperial-divider mx-auto"></div>
+        </div>
+
+        <!-- 4 Part Contact Grid -->
+        <div class="row g-4 justify-content-center">
+            <!-- WhatsApp -->
+            <div class="col-md-6 col-lg-3 entrance-scatter">
+                <a href="https://wa.me/916379028897" target="_blank" class="contact-card-3d micro-interaction">
+                    <div class="card-inner">
+                        <div class="icon-box"><i class="fab fa-whatsapp"></i></div>
+                        <h4 class="gold-text">WhatsApp</h4>
+                        <p class="ivory-text">Immediate Booking</p>
+                        <div class="wax-seal-mini">VP</div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Instagram -->
+            <div class="col-md-6 col-lg-3 entrance-scatter">
+                <a href="#" target="_blank" class="contact-card-3d micro-interaction">
+                    <div class="card-inner">
+                        <div class="icon-box"><i class="fab fa-instagram"></i></div>
+                        <h4 class="gold-text">Instagram</h4>
+                        <p class="ivory-text">Visual Chronicles</p>
+                        <div class="wax-seal-mini">VP</div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- E-Mail -->
+            <div class="col-md-6 col-lg-3 entrance-scatter">
+                <a href="mailto:concierge@vishalpavilion.com" class="contact-card-3d micro-interaction">
+                    <div class="card-inner">
+                        <div class="icon-box"><i class="fas fa-envelope-open-text"></i></div>
+                        <h4 class="gold-text">E-Mail</h4>
+                        <p class="ivory-text">Official Inquiries</p>
+                        <div class="wax-seal-mini">VP</div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Location Details -->
+            <div class="col-md-6 col-lg-3 entrance-scatter">
+                <a href="https://maps.app.goo.gl/3yaM1RFaogwz2N2B6" target="_blank" class="contact-card-3d micro-interaction">
+                    <div class="card-inner">
+                        <div class="icon-box"><i class="fas fa-map-marker-alt"></i></div>
+                        <h4 class="gold-text">Location</h4>
+                        <p class="ivory-text">Opp. Boat House, Pondy</p>
+                        <div class="wax-seal-mini">VP</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Final CTA Button -->
+        <div class="text-center mt-5 entrance-scatter">
+            <button class="btn-imperial-gold px-5 py-3 micro-interaction" onclick="window.open('https://wa.me/916379028897')">
+                INITIATE ENQUIRY
+            </button>
+        </div>
+    </div>
+</section>
+
+
+<!-- FIXED IMPERIAL FOOTER -->
+<footer class="matrix-fixed-footer">
+    <div class="container-fluid px-lg-5">
+        <div class="footer-flex-container">
+            
+            <!-- Left: Spacer (To keep copyright centered) -->
+            <div class="footer-side d-none d-md-block"></div>
+
+            <!-- Center: Copyright -->
+            <div class="footer-center">
+                <span class="copyright-minimal">VISHAL PAVILION RESIDENCY © 2026</span>
+            </div>
+
+            <!-- Right: MatrixBytes Branding -->
+            <div class="footer-side text-end">
+                <div class="footer-left-side">
+                    <div class="created-inline-wrapper">
+                        <span class="created-text">Created by</span>
+                        <a href="https://madhavan1341.github.io/MatrixBytes/" target="_blank" class="matrix-brand" id="matrix-brand-hover">
+                            <div class="matrix-logo-circle-zoom">
+                                <img src="images/MB.png" alt="MatrixBytes Logo">
+                            </div>
+                            <span class="matrix-text">
+                                <span class="m-red">Matrix</span><span class="b-white">Bytes</span>
+                            </span>
+                            <div id="glitter-container"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
