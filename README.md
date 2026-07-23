@@ -1,16 +1,31 @@
-## Hi there 👋
+# Vishal Pavilion Residency
 
-<!--
-**vishalpavilion/vishalpavilion** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to the official repository of Vishal Pavilion Residency.
 
-Here are some ideas to get you started:
+This repository contains the source code and assets for the official website of Vishal Pavilion Residency.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## About
+
+Vishal Pavilion Residency offers a comfortable and premium stay with modern amenities, elegant rooms, and exceptional hospitality.
+
+## Website
+
+The website includes:
+
+- Home
+- Rooms & Suites
+- Amenities
+- Gallery
+- Nearby Attractions
+- Contact Information
+- Booking Details
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+
+---
+
+© Vishal Pavilion Residency. All Rights Reserved.
